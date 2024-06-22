@@ -7,5 +7,13 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
-  }
+  },
+  rules: {
+    "vue/multi-word-component-names": [
+      "error",
+      {
+        ignores: ["index"], //需要忽略的组件名
+      },
+    ],
+  },
 }

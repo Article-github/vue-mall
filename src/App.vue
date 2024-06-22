@@ -1,4 +1,6 @@
 <script setup>
+import { RouterView } from 'vue-router';
+
 // import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
 </script>
@@ -18,7 +20,8 @@
   </header>
 
   <RouterView /> -->
-  <el-button type="primary">Primary</el-button>
+  <!-- 一级路由出口组件 -->
+   <RouterView />
 </template>
 
 <style scoped>
